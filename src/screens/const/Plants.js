@@ -1,56 +1,120 @@
 const plants = [
   {
-    id: "uihbew23",
+    id: "uihbewwfe44423",
     name: "Succulent Plant",
     price: "$120.00",
     like: true,
     img: require("../../../assets/plant1.jpg"),
     about:
-      "nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst",
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
   },
   {
-    id: "uihbe233",
-    name: "Succulent Plant",
-    price: "$120.00",
-    like: true,
-    img: require("../../../assets/plant2.jpeg"),
-    about:
-      "nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst",
-  },
-  {
-    id: "u2egereb3",
-    name: "Succulent Plant",
-    price: "$120.00",
-    like: true,
-    img: require("../../../assets/plalnt3.jpeg"),
-    about:
-      "nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst",
-  },
-  {
-    id: "uihbertbrtbw23",
+    id: "uihbesadvsdvsrew23",
     name: "Succulent Plant",
     price: "$120.00",
     like: true,
     img: require("../../../assets/plant1.jpg"),
     about:
-      "nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst",
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
   },
   {
-    id: "uihbuk467566e233",
+    id: "uihbew28348483",
     name: "Succulent Plant",
     price: "$120.00",
     like: true,
-    img: require("../../../assets/plant2.jpeg"),
+    img: require("../../../assets/plant1.jpg"),
     about:
-      "nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst",
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
   },
   {
-    id: "u234t54t4ghh3",
+    id: "uihbew28348483",
     name: "Succulent Plant",
     price: "$120.00",
     like: true,
-    img: require("../../../assets/plalnt3.jpeg"),
+    img: require("../../../assets/plant1.jpg"),
     about:
-      "nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst",
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
+  },
+  {
+    id: "uihbew28348483",
+    name: "Succulent Plant",
+    price: "$120.00",
+    like: true,
+    img: require("../../../assets/plant1.jpg"),
+    about:
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
+  },
+  {
+    id: "uihbew28348483",
+    name: "Succulent Plant",
+    price: "$120.00",
+    like: true,
+    img: require("../../../assets/plant1.jpg"),
+    about:
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
+  },
+  {
+    id: "uihbew28348483",
+    name: "Succulent Plant",
+    price: "$120.00",
+    like: true,
+    img: require("../../../assets/plant1.jpg"),
+    about:
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
+  },
+  {
+    id: "uihbew28348483",
+    name: "Succulent Plant",
+    price: "$120.00",
+    like: true,
+    img: require("../../../assets/plant1.jpg"),
+    about:
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
+  },
+  {
+    id: "uihbew28348483",
+    name: "Succulent Plant",
+    price: "$120.00",
+    like: true,
+    img: require("../../../assets/plant1.jpg"),
+    about:
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
+  },
+  {
+    id: "uihbew28348483",
+    name: "Succulent Plant",
+    price: "$120.00",
+    like: true,
+    img: require("../../../assets/plant1.jpg"),
+    about:
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
+  },
+  {
+    id: "uihbew28348483",
+    name: "Succulent Plant",
+    price: "$120.00",
+    like: true,
+    img: require("../../../assets/plant1.jpg"),
+    about:
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
+  },
+  {
+    id: "uihbew28348483",
+    name: "Succulent Plant",
+    price: "$120.00",
+    like: true,
+    img: require("../../../assets/plant1.jpg"),
+    about:
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
+  },
+  {
+    id: "uihbew28348483",
+    name: "Succulent Plant",
+    price: "$120.00",
+    like: true,
+    img: require("../../../assets/plant1.jpg"),
+    about:
+      "this the best of all indoor flowers that prevents insects from entering your homes.",
   },
 ];
+export default plants;
