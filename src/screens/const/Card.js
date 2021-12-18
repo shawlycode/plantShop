@@ -7,27 +7,39 @@ import {
   Text,
   StatusBar,
   Dimensions,
+  Image,
 } from "react-native";
+
+import { MaterialIcons } from "@expo/vector-icons";
 import COLORS from "./Colors";
 import plants from "./Plants";
 
 const width = Dimensions.get("screen").width / 2 - 30;
 
-const Item = ({ plants }) => (
-  <View style={styles.item}>
-    <Text style={styles.title}>{plants}</Text>
+const Item = ({ item }) => (
+  <View style={styles.card}>
+    <View style={styles.favoriteBtn}>
+      <View style={styles.favicon}>
+        <MaterialIcons name="favorite" size={24} color={COLORS.red} />
+      </View>
+    </View>
+    <Image source={plants.img} style={{ flex: 1, resizeMode: "contain" }} />
   </View>
 );
 
-const App = () => {
-  const renderItem = ({ item }) => (
-    <Item title={item.plants} style={{ justifyContent: "center" }} />
+const Card = () => {
+  const renderItem = ({ item, plants, img, price }) => (
+    <Item
+      style={{ justifyContent: "center" }}
+      title={item.plants}
+      price={item.price}
+    />
   );
 
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
-        contentContainerStyle={{ marginTop: 10, paddingBottom: 50 }}
+        contentContainerStyle={{ marginTop: 10 }}
         numColumns={2}
         showsVerticalScrollIndicator={false}
         data={plants}
@@ -44,7 +56,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  item: {
+  card: {
     backgroundColor: COLORS.grey,
     height: 225,
     width,
@@ -53,6 +65,18 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     padding: 15,
   },
+  favoriteBtn: {
+    alignItems: "center",
+    justifyContent: "center",
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: "rgba(245,42,42,0.2)",
+  },
+  favicon: {
+    flexDirection: "row",
+    justifyContent: "flex-end",
+  },
 });
 
-export default App;
+export default Card;

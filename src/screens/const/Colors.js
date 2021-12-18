@@ -7,5 +7,6 @@ const COLORS = {
   red: "#FF1700",
   light: "#F1F1F1",
   grey: "#CAD8C9",
+  transparent: "rgba(255, 99, 71, 0.4)",
 };
 export default COLORS;
